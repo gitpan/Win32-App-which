@@ -16,7 +16,7 @@ name: Win32-App-which
 provides:
   Win32::App::which:
     file: lib/Win32/App/which.pm
-    version: 0.01
+    version: 1.00
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.01
+  license: http://www.gnu.org/licenses/gpl-3.0.html
+version: 1.00

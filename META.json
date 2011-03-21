@@ -28,14 +28,14 @@
    "provides" : {
       "Win32::App::which" : {
          "file" : "lib/Win32/App/which.pm",
-         "version" : "0.01"
+         "version" : "1.00"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://dev.perl.org/licenses/"
+         "http://www.gnu.org/licenses/gpl-3.0.html"
       ]
    },
-   "version" : "0.01"
+   "version" : "1.00"
 }
