@@ -4,7 +4,7 @@
       "Olivier Mengué <dolmen@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110580",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -23,19 +23,27 @@
          "requires" : {
             "Module::Build" : "0.3800"
          }
+      },
+      "runtime" : {
+         "requires" : {
+            "perl" : "5.006"
+         }
       }
    },
    "provides" : {
       "Win32::App::which" : {
          "file" : "lib/Win32/App/which.pm",
-         "version" : "1.02"
+         "version" : "1.021"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://www.gnu.org/licenses/gpl-3.0.html"
-      ]
+      ],
+      "repository" : {
+         "url" : "https://github.com/dolmen/p5-Win32-App-which.git"
+      }
    },
-   "version" : "1.02"
+   "version" : "1.021"
 }
