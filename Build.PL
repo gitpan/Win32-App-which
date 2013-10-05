@@ -1,5 +1,5 @@
 use 5.008;
-exit 0 if $^O ne 'MSWin32';
+exit 0 if $^O ne 'MSWin32' && !$ENV{RELEASE_BUILD};
 use strict;
 use warnings;
 use Module::Build;
@@ -28,7 +28,7 @@ my $build = Module::Build->new(
 	# which we could check the version
     },
     requires => {
-	perl => '5.006',
+	perl => '5.008',
     },
 
     dynamic_config => 0,
